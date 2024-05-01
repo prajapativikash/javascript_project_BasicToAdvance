@@ -1,0 +1,119 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.title {
+   display: flex;
+   flex-direction: column;
+   padding-top: 3rem;
+   font-size: 3rem;
+   text-decoration: underline;
+   color: gray;
+}
+
+.card_container {
+   width: 40%;
+   height: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 3rem;
+   border: 1px solid gray;
+   border-radius: 1rem;
+   padding: 1rem;
+   box-shadow: 4px 5px 4px 8px rgba(92, 63, 63, 0.1);
+   gap: 1rem;
+
+}
+
+#info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 5%;
+}
+
+.image {
+   width: 50%;
+   height: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+#image {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 50%;
+   width: 100%;
+   border-radius: 50%;
+}
+
+
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: .6rem;
+}
+
+#name {
+   font-size: 1.2rem;
+   color: rgba(112, 116, 39, 0.463);
+}
+
+#role {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 400px;
+}
+
+.left-right {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   color: blue;
+   cursor: pointer;
+}
+
+.random {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+#surprise {
+   padding: .4rem 1.3rem;
+   border-radius: .4rem;
+   font-size: 1.2rem;
+   cursor: pointer;
+}
